@@ -1,0 +1,40 @@
+/* .flexbox-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+} */
+body{
+    background-image: url(four.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.h22{
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+  .flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+  }
+  flexbox-item-1{
+      display: flex;
+      justify-content: center;
+  }
+
+  .flexbox-item-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  }
+  

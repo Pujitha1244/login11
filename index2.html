@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="flexbox">
+        <form action="">
+            <div class="h22">
+                <h2>Details</h2>
+            </div>
+                 <div class="form-group row">
+                    <div class="flexbox-item-2">
+                        <label for="name1" class="col-sm-2" ><strong><em>Name:</em></strong></label>
+                    </div>
+                    <div class="flexbox-item-2">
+                        <input type="text" Name="name1" class="col-lg-10">
+                    </div>
+                </div>
+            
+            <div class="form-group row">
+                <div class="flexbox-item-2">
+                    <label for="gender" class="col-sm-2 "><strong><em>Gender</em></strong></label>
+                </div>
+                <div class="flexbox-item-2">
+                  <select class="" Name="Gender" class="col-lg-10">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                  </select>
+                </div>
+              </div>
+            
+
+              
+                <div class="form-group row">
+                    <div class="flexbox-item-2">
+                         <label for="Contact" class="col-sm-2"><strong><em>Contact:</em></strong></label>
+                    </div>
+                   <div class="flexbox-item-2" >
+                       <input type="text" Name="Contact" class="col-lg-10">
+                   </div>
+               </div>
+           
+
+            
+                <div class="form-group row">
+                    <div class="flexbox-item-2">
+                   <label for="Mail" class="col-sm-2"><strong><em>Mail:</em></strong></label>
+                </div>
+                   <div class="flexbox-item-2" >
+                       <input type="text" Name="Mail" class="col-lg-10">
+                   </div>
+               </div>
+           
+
+           
+            <div class="form-group row">
+                <div class="flexbox-item-2">
+                    <label for="street" class="col-sm-2"><strong><em>Street:</em></strong></label>
+            </div>
+               <div class="flexbox-item-2" >
+                   <input type="text" Name="Street" class="col-lg-10">
+               </div>
+           </div>
+       
+
+       
+       <div class="form-group row">
+        <div class="flexbox-item-2">
+            <label for="plot" class="col-sm-2"><strong><em>Plot No:</em></strong></label>
+    </div>
+       <div class="flexbox-item-2" >
+           <input type="text" Name="Plot" class="col-lg-10">
+       </div>
+   </div>
+
+
+   
+   <div class="form-group row">
+    <div class="flexbox-item-2">
+        <label for="city" class="col-sm-2"><strong><em>City</em></strong></label>
+    </div>
+    <div class="flexbox-item-2">
+        <select name="City" id="city" class="col-lg-10">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Chennai">Chennai</option>
+        </select>
+    </div>
+</div>
+
+
+<div class="form-group row">
+    <div class="flexbox-item-2">
+        <label for="state" class="col-sm-2"><strong><em>State</em></strong></label>
+    </div>
+        <div class="flexbox-item-2">
+            <select name="states" id="states" class="col-lg-10">
+                <option value="Telangana">Telangana</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+            </select>
+    </div>
+</div>
+<div class="h22">
+    <button type="button" class="btn btn-success" onclick="display();" name="button">Submit</button>
+</div>
+
+          <script LANGUAGE="JavaScript" type="text/javascript">
+          function display() {
+            DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
+            message = "<ul><li><b>NAME: </b>" + document.form1.Name.value;
+            message += "<li><b>Mail: </b>" + document.form1.Mail.value;
+            message += "<li><b>MAIL: </b>" + document.form1.Contact.value + "</ul>";
+            DispWin.document.write(message);
+          }
+          </script>
+        </form>
+    </div> 
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+      crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+      crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+      crossorigin="anonymous"></script>
+      
+</body>
+</html>

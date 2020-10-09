@@ -1,0 +1,50 @@
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    /* background-image: url("four.jpg"); */
+}
+
+/* .full{
+    align-items: center;
+    align-content: center;
+    height: 500px;
+    width: 500px;
+    background-image: url("four.jpg");
+} */
+.flexbox-item-22{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    align-content: center;
+}
+
+.flexbox-item-1{
+    width: 50px;
+    height: auto;
+    margin: 10px;
+    align-content: center;
+}
+
+.flexbox-item-2{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+.flexbox-item-3{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+body{
+    background-image: url("four.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
